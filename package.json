@@ -1,6 +1,6 @@
 {
   "name": "node_struct",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "使用 ts 版的 nodejs 复刻 python 中的 struct",
   "main": "dist/index.js",
   "scripts": {
@@ -8,5 +8,8 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^24.3.0"
+  }
 }

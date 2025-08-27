@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "types": ["node"] // 默认 Node 项目会自动引入
+  },
+  "include": [
+    "src",
+    "types", // 因为我们把类型扩展文件放在 types 目录
+    "./src/types"
+  ]
+}
