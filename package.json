@@ -1,0 +1,12 @@
+{
+  "name": "node_struct",
+  "version": "1.0.0",
+  "description": "使用 ts 版的 nodejs 复刻 python 中的 struct",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
