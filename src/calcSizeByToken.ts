@@ -1,8 +1,6 @@
-import parseFormat from './utils/parseFormat';
+import type { Token } from './types/type';
 import { typeMap } from './constant';
-
-export default function calcsize(fmt: string): number {
-  const { tokens } = parseFormat(fmt);
+function calcSizeByToken(tokens: Token[]): number {
   let total = 0;
   for (const t of tokens) {
     const type = typeMap[t.code];
@@ -11,3 +9,4 @@ export default function calcsize(fmt: string): number {
   }
   return total;
 }
+export default calcSizeByToken;
