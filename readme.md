@@ -4,8 +4,7 @@
 
 ### 使用方法
 
-import struct from "node_struct";
-
 ```
+import struct from "node_py_struct";
 struct.pack("<i", 1, Buffer.from([1,2,3]));
 ```
