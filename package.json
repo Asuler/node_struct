@@ -1,6 +1,6 @@
 {
   "name": "node_py_struct",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "使用 ts 版的 nodejs 复刻 python 中的 struct",
   "main": "./dist/cjs/index.js",
   "module": "./dist/esm/index.js",
@@ -21,7 +21,13 @@
     "build:esm": "tsc -p tsconfig.esm.json",
     "build:cjs": "tsc -p tsconfig.cjs.json"
   },
-  "keywords": [],
+  "keywords": [
+    "pack",
+    "unpack",
+    "struct",
+    "cstruct",
+    "python"
+  ],
   "author": "",
   "homepage": "https://github.com/Asuler/node_struct",
   "repository": {
